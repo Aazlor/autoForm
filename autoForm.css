@@ -1,0 +1,105 @@
+form input:focus, form select:focus{
+	outline-width: 0;
+}
+
+.invalid {
+	border: 2px solid #ee0000;
+}
+
+/** Added to make the error in the checkarea fall where it should **/
+.Block {
+	display: block;
+}
+
+.errorSpan {
+	color:#ff0000;
+}
+
+.add {
+	height:1.25em;
+	display:inline-block;
+	background-color:#ddd;
+}
+
+.add span {
+	margin-left:.15em;
+	margin-right:.15em;
+}
+
+.add:hover{
+	box-shadow: 0px 0px 9px #222;
+	cursor: pointer;
+}
+
+.remove {
+	height:1.25em;
+	background-color:#ddd;
+	display:none;
+	margin:.2em 0em .2em 0em;
+}
+
+.remove:hover{
+	box-shadow: 0px 0px 9px #222;
+	cursor: pointer;
+}
+
+.remove span {
+	margin-left:.15em;
+	margin-right: .15em;
+}
+
+#Break {
+	width:100%;
+	display: inline-block;
+	line-height: 0;
+	height: 0;
+	margin: 0;
+}
+
+.Fields .Field {
+	margin:2px 2px 2px 2px;
+	display: inline-block;
+	vertical-align: top;
+	min-width: 29%;
+	width: 30%;
+}
+
+.Fields {
+	display: block;
+	text-align: justify;
+	position: relative;
+	margin: auto;
+	width: 80%;
+}
+
+.Fields * {
+	vertical-align: top;
+}
+
+.Fields div.Inf {
+	display: block;
+	clear: both;
+	width: 100%;
+}
+
+div[data-id*='(check)'] > div {
+	display:inline-block;
+	position:relative;
+}
+
+.Field > label {
+	min-width: 120px;
+	display: inline-block;
+}
+
+.SubBoxes {
+	display: block;
+}
+
+.Error {
+	border: 1px solid #cc0000;
+}
+
+.Field.Dynamic {
+	width: 100%;
+}
